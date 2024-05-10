@@ -36,6 +36,7 @@ void pop() {
     if (isEmpty()) {
         cout << "stack is Empty." << endl;
     }
+    cout << "Popped value:" << top->data << endl;
 }
 int main()
 {
