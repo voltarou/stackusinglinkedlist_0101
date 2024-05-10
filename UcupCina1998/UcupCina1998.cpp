@@ -30,6 +30,12 @@ int push(int value) {
     cout << "Push value:" << value << endl;
     return value;
 }
+
+void pop() {
+    if (isEmpty()) {
+
+    }
+}
 int main()
 {
     
