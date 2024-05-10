@@ -23,7 +23,7 @@ public:
 
 
     int push(int value) {
-        Node* top;
+        
         Node* newNode = new Node();
         newNode->data = value;
         newNode->next = top;
@@ -33,7 +33,7 @@ public:
     }
 
     void pop() {
-        Node* top;
+        
 
         if (isEmpty()) {
             cout << "stack is empty." << endl;
@@ -43,7 +43,7 @@ public:
     }
 
     void peek() {
-        Node* top;
+        
         if (top == NULL) {
             cout << "List is empty." << endl;
         }
@@ -58,7 +58,7 @@ public:
     }
 
     bool isEmpty() {
-        Node* top;
+       
         return top == NULL;
     }
 
