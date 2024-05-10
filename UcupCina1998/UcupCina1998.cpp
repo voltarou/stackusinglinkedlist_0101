@@ -37,6 +37,7 @@ void pop() {
         cout << "stack is Empty." << endl;
     }
     cout << "Popped value:" << top->data << endl;
+    top = top->next;
 }
 int main()
 {
