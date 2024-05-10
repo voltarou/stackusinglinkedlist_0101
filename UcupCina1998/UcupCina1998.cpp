@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 class Node {
 public :
     int data;
@@ -33,7 +34,7 @@ int push(int value) {
 
 void pop() {
     if (isEmpty()) {
-
+        cout << "stack is Empty." << endl;
     }
 }
 int main()
