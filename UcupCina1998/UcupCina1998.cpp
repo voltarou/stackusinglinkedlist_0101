@@ -33,12 +33,22 @@ int push(int value) {
 }
 
 void pop() {
+    Node* top;
+    
     if (isEmpty()) {
-        cout << "stack is Empty." << endl;
+        cout << "stack is empty." << endl;
     }
     cout << "Popped value:" << top->data << endl;
     top = top->next;
 }
+
+void peek() {
+    Node* top;
+    if (top == NULL) {
+        cout << "List is empty." << endl;
+    }
+}
+
 int main()
 {
     
