@@ -35,7 +35,7 @@ int push(int value) {
 void pop() {
     Node* top;
     
-    if (isEmpty()) {
+    if (isEmpty()){
         cout << "stack is empty." << endl;
     }
     cout << "Popped value:" << top->data << endl;
@@ -53,7 +53,13 @@ void peek() {
             cout << current->data << "" << endl;
             current = current->next;
         }
+        cout << endl;
     }
+}
+
+bool isEmpty() {
+    Node* top;
+    return top == NULL;
 }
 
 int main()
